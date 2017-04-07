@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+margin:0;
+padding:0;
+}
+
+h1 {color: darkblue;
+	font-size: 40px;
+	font-stretch: semi-expanded;
+	text-align: left;
+	font-family:Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	padding-top: 12px;
+	padding-left: 22px;
+}
+body{
+	background-color: mintcream;
+	margin-top: 10;
+	margin-right: 190px;
+	margin-left: 190px;
+	margin-bottom: 10px;
+	
+}
+
+h2 {
+	color: cornflowerblue;
+	font-size: 30px;
+	margin-left: 0px;
+}
+
+ul {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+.list1 {
+	display: inline-block;
+	width: 18.7%;
+	border-width: thick;
+	text-align: center;
+	border-style: ridge;
+	height: 35px;
+	padding-top: 10px;
+	background-color: ghostwhite;
+	font-size: 20px;
+}
+
+#navi {
+	padding-top: 2px;
+}
+
+#header {background-image: url(Images/sandyedited.jpg);
+	background-repeat: no-repeat;
+	background-image: alt="http://www.northcoastholidayparks.com.au/park/info/north-beach";
+	width: 100%;
+	height: 200px;
+}
+
+#SU {
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans, Helvetica, Arial," sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	border: medium inset #000000;
+	border-radius: 6px;
+	height: 45px;
+	width: 280px;
+	color: mediumblue;
+	line-height: 45px;
+	background-color:aliceblue;
+}
+#SUbox #SU a {text-decoration: none;}
+
+
+#SUbox {text-align: right;
+	padding-right: 0.5%;
+	padding-top: 4%;
+}
+
+#page {
+	margin-top: 10;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-bottom: 10;
+}
+
+
+.txtfield {text-align: left;}
+#textfield {text-align: left}
+
+input.txtfield{
+	width: 170px;
+	height: 22px;
+	border: 1px solid lightblue;
+	background-color: ghostwhite;
+	color: #000000;
+	font-size: 11px;
+	padding: 0 0 0 50;
+	margin-right: 40px;
+	float: right;
+	margin-top: -47px;
+	
+}
+input.go{
+	background: url(Images/go.gif) no-repeat 0 0;
+	width: 24px;
+	height: 22px;
+	cursor: pointer;
+	border: none;
+	float: right;
+	margin-top: -45px;
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-bottom: 0;
+}
+
+.nav-justified > li > a {
+	color: #555555;
+	font-weight: bold;
+	text-align: center;
+}
+p {text-align: justify;
+}
+.spike {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+.game {
+	width: 100%;
+	height: 100%;
+}
+p1 {
+	font-size: 20px;
+	text-align: center; 
+}
+.slamball {width: 200px;
+	float: right;
+	padding-left: 20px
+}
+<--footer
+#footer{
+	background-color:#212121;
+	height:100px;
+	width: 1020px;
+	margin-left: 300px;
+	padding-top: 100px;
+}
+ul.footerlink{
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-bottom: 0;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	height: 63px;
+	max-width: 1061px;
+	background-color: lightblue;
+	position: bottom;
+	bottom: 10px;
+	left: auto;
+}
+ul.footerlink_{
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-bottom: 0;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: 150px;
+	margin-bottom: 0px;
+	height: 63px;
+	max-width: 75%;
+	background-color: lightblue;
+	position: bottom;
+	bottom: 10px;
+}
+ul.footerlink2{
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-bottom: 0;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	height: 63px;
+	max-width: 1061px;
+	background-color: lightblue;
+	position: bottom;
+	bottom: 10px;
+	left: auto;
+}
+#footer .footerlink .list2 {
+	float: left;
+	padding-left: 5px;
+}
+#footer .footerlink2 .list2 {
+	float: left;
+	padding-left: 5px;
+}
+#footer .footerlink_ .list2 {
+	float: left;
+	padding-left: 5px;
+}
+#footer .footerlink .list3 {
+	float: left;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+#footer .footerlink2 .list3 {
+	float: left;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+#footer .footerlink_ .list3 {
+	float: left;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+#footer .footerlink .list4 {
+	float: left;
+	padding-left: 35px;
+}
+#footer .footerlink2 .list4 {
+	float: left;
+	padding-left: 35px;
+}
+#footer .footerlink_ .list4 {
+	float: left;
+	padding-left: 35px;
+}
+#footer .footerlink .list5 {
+	float: left;
+	padding-left: 35px;
+	padding-top: 2px;
+}
+#footer .footerlink2 .list5 {
+	float: left;
+	padding-left: 35px;
+	padding-top: 2px;
+}
+#footer .footerlink_ .list5 {
+	float: left;
+	padding-left: 35px;
+	padding-top: 2px;
+
+}
+ul.footerlink li a:hover, ul.footerlink {
+color: #555555;
+}
+ul.footerlink2 li a:hover, ul.footerlink2 {
+color: #555555;
+}
+ul.footerlink_ li a:hover, ul.footerlink2 {
+color: #555555;
+}
+p.copyright{
+	float: right;
+font-size:11px;
+padding: 0px 0px 0px 0px;
+color:#615F5C;
+text-align:right;
+width:300px;
+margin-right: 10px;
+}
+p.copyright span{
+display:block;
+}
+
+.list2 {list-style-type: none;
+text-align: left}
+.list3 {list-style-type: none;
+text-align: left}
+.list4 {list-style-type: none;
+text-align: left}
+.list5 {list-style-type: none;
+text-align: left}
+.cr {list-style-type: none}
+
+
+li {text-align: left;
+	list-style-type: disc;
+	padding-bottom: 15px;
+	font-size: 18px
+}
+
+.vball {
+	float: right;
+	height: auto;
+	width: 220px;
+}
+
+<--SignUp
+input {
+	border: 2px solid #eeeeee;
+	height: 46px;
+	margin: 10px 0 0 0;
+	padding: 1%;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	font-style: normal;
+	font-weight: 300;
+	font-family: source-sans-pro; sans-serif;
+}
+#fname{
+	width:100%;
+height: 40px;}
+#lname{
+	width:100%;
+height: 40px;}
+#phone{
+	width:100%;
+height: 40px;}
+#email {
+	width:100%;
+height: 40px;}
+#address {
+	width: 100%;
+height: 40px;}
+#select {
+	width:74%;
+	height: 44px;
+	float: right;}
+#competition {
+	width: 25.1%;
+	height: 40px;}
+#select_ {
+		width:74%;
+	height: 44px;
+	float: right;}
+#comptime {width: 25.1%;
+	height: 40px;}
+#agree {width: 8%}
+#agreed {
+	width: 91%
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+
+#checkbox {
+	position: absolute;
+	top: 0;
+  	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+}
+
+.robot {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	margin: 0 0 0 30px;
+	line-height: 15px;
+}
+
+#submit {
+	display: block;
+	border: 0;
+	width: 25%;
+	height: 60px;
+	margin: 30px auto 0;
+	background: #eee;
+	color: #333;
+	text-align: center;
+	transition: background, color, .5s ease 0;
+	font-size: 20px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: 300;
+	font-family: source-sans-pro: sans-serif;
+}
+
+#submit:hover {
+	background: #DADADA;
+	border: 1px #DADADA;
+	color: blue;
+}
+
+
+body {
+	background-color:#e6e6e6;
+	margin: 0 auto;
+}
+
+#wrapper {
+	max-width: 1020px;
+	height: 100%;
+	background: #fff;
+	margin: 0px auto 0;
+	padding: 20px;
+}
+
+#signBox {
+	position: relative;
+	margin: 0 auto;
+	padding:10px 0;
+	height: auto;
+	width: 50%;
+	min-width: 325px;
+}
+
+
+*:focus {
+	outline: none;
+}
+
+.signForm {
+	display: block;
+	margin: 20px 0 0 0;
+	width: 90%;
+}
+
+
+.thin {
+	font-weight:200;
+}
+
+a {
+	text-decoration:none;
+	color: #333333;
+}
+
+a:hover {
+	text-decoration:none;
+	color:dodgerblue;
+}
+table {table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+td {border: 1px solid black;}
+
+td, th {border: 1px solid #dddddd;
+	text-align: left;
+	padding: 2px 2px 2px 2px;		
+}
+tr:nth-child(even) {background-color: ghostwhite}#tabletext {
+	padding-top: 25px;
+}
+.pts {
+	text-align: center;
+}
+#moreinfo {
+	font-size: 24px;
+	color: cornflowerblue;
+}
+li strong a {
+	text-decoration: underline;
+}
+
+#page p a {
+	text-decoration: underline;
+}
